@@ -1,0 +1,346 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7ea67f11-ed9d-49a6-965f-89e27669b848" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dm_ProjectFinal</ID>
+  <Name>Dm_ProjectFinal</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_Dm_ProjectFinal</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8698" scrolltop="-4353" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21378" y="12700" backcolor="16185078" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Dm_ProjectFinal" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3942" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000660f00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dm_ProjectFinal" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8698</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4353</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="32a705e9-d533-4234-96e2-3875eb2d9435">
+    <DataSourceViewID>DsVw_SsasDmProjectFinal</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="e1dfadc8-0010-4b94-af73-d3b3bd0da365">
+      <ID>AGE</ID>
+      <Name>AGE</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e023e1af-6149-47c2-8f26-22c5c614024b">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2ce6bd5d-535f-4b8d-a517-f1bf72c3ad17">
+            <TableID>dbo_Dm_ProjectFinal</TableID>
+            <ColumnID>AGE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ab508a12-a38c-4c51-9840-6a516a2b267e">
+      <ID>Customer Key</ID>
+      <Name>Customer Key</Name>
+      <IsKey>true</IsKey>
+      <Type>Long</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7bdea261-e72d-4d80-b9c3-728f55157529">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32645a3e-05ce-433e-a206-9a0af0204b64">
+            <TableID>dbo_Dm_ProjectFinal</TableID>
+            <ColumnID>CustomerKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b8b13ce5-1cde-495e-92f3-d11a2be1d8d9">
+      <ID>CUSTOMERSALARY</ID>
+      <Name>CUSTOMERSALARY</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="467d2a92-08c7-4b0f-b1bd-a9476c6fad9b">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c2c11d3a-41d6-4d9a-bb75-4e9e8750926e">
+            <TableID>dbo_Dm_ProjectFinal</TableID>
+            <ColumnID>CUSTOMERSALARY</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="95183b8b-96f2-4ec7-97db-b6a9001af177">
+      <ID>ESTADOCIVIL</ID>
+      <Name>ESTADOCIVIL</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c36edd38-17f1-471b-b124-a607f87c800a">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf2b477a-4ee3-47df-b781-0576e31b5639">
+            <TableID>dbo_Dm_ProjectFinal</TableID>
+            <ColumnID>ESTADOCIVIL</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="333b7bac-b6c4-4c81-bba3-be1ef8d61e04">
+      <ID>Prospective Buyer</ID>
+      <Name>Prospective Buyer</Name>
+      <Type>Long</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a1a3743a-5c6a-4918-b099-25be0621a1de">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ba231344-a465-4243-97c0-aae504315d73">
+            <TableID>dbo_Dm_ProjectFinal</TableID>
+            <ColumnID>ProspectiveBuyer</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="1d825a30-99ee-41d0-8554-bfba05eaf77a">
+      <ID>Tiene Carro</ID>
+      <Name>Tiene Carro</Name>
+      <Type>Long</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7cf8dd5b-f9ce-4c7f-a421-a0fe99a61533">
+          <DataType>UnsignedTinyInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="12a8568a-a4e8-472d-b013-dc52380c8100">
+            <TableID>dbo_Dm_ProjectFinal</TableID>
+            <ColumnID>TieneCarro</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="aff87be0-79cc-4029-ae89-28425bfd0635">
+      <ID>Tiene Casa</ID>
+      <Name>Tiene Casa</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be47b51a-cce4-4aef-8c65-b41b237d91d9">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad7ce3c5-8c2d-428b-8110-5e385e4e9565">
+            <TableID>dbo_Dm_ProjectFinal</TableID>
+            <ColumnID>TieneCasa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="7387a684-6e72-40a2-9be7-8ecb12c03cd9">
+      <ID>Dm_ProjectFinal</ID>
+      <Name>Dm_ProjectFinal</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Decision_Trees</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="b2e5e087-08da-48a7-b666-573536f7264f">
+          <ID>AGE</ID>
+          <Name>AGE</Name>
+          <SourceColumnID>AGE</SourceColumnID>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="2e01073d-c013-4cd3-aabe-ee294db27933">
+          <ID>Customer Key</ID>
+          <Name>Customer Key</Name>
+          <SourceColumnID>Customer Key</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="14caaacd-2348-4d2d-8a54-7cec72d14344">
+          <ID>CUSTOMERSALARY</ID>
+          <Name>CUSTOMERSALARY</Name>
+          <SourceColumnID>CUSTOMERSALARY</SourceColumnID>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="5517a150-1e37-4053-bdaa-997d52f6cd34">
+          <ID>ESTADOCIVIL</ID>
+          <Name>ESTADOCIVIL</Name>
+          <SourceColumnID>ESTADOCIVIL</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="52fab03a-a48b-43cf-b61f-fccc780a285d">
+          <ID>Prospective Buyer</ID>
+          <Name>Prospective Buyer</Name>
+          <SourceColumnID>Prospective Buyer</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="9b0b7f05-5d42-4b93-a8d3-166ef83fcb79">
+          <ID>Tiene Carro</ID>
+          <Name>Tiene Carro</Name>
+          <SourceColumnID>Tiene Carro</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="b6be6463-b3bc-4a20-8958-10b5ee335688">
+          <ID>Tiene Casa</ID>
+          <Name>Tiene Casa</Name>
+          <SourceColumnID>Tiene Casa</SourceColumnID>
+        </Column>
+      </Columns>
+    </MiningModel>
+    <MiningModel dwd:design-time-name="befecf96-d049-4128-be37-b993cdbf475d">
+      <ID>MC_ProjectFinal</ID>
+      <Name>MC_ProjectFinal</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Clustering</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="3d9f1dd2-e1a9-4db8-beb6-1b62c7a9e7ab">
+          <ID>AGE</ID>
+          <Name>AGE</Name>
+          <SourceColumnID>AGE</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="3d29c930-8f28-4cf0-bf79-c233a614d406">
+          <ID>Customer Key</ID>
+          <Name>Customer Key</Name>
+          <SourceColumnID>Customer Key</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="7136e2a1-80f7-48df-9b42-41af961b024e">
+          <ID>CUSTOMERSALARY</ID>
+          <Name>CUSTOMERSALARY</Name>
+          <SourceColumnID>CUSTOMERSALARY</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="bdae9304-0562-4477-b5a5-582c00bcdc16">
+          <ID>ESTADOCIVIL</ID>
+          <Name>ESTADOCIVIL</Name>
+          <SourceColumnID>ESTADOCIVIL</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="a92bddb4-9479-467e-a1fc-06d7ccbdedbc">
+          <ID>Prospective Buyer</ID>
+          <Name>Prospective Buyer</Name>
+          <SourceColumnID>Prospective Buyer</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="5fe79acf-da77-4444-9dda-7b42f7950e18">
+          <ID>Tiene Carro</ID>
+          <Name>Tiene Carro</Name>
+          <SourceColumnID>Tiene Carro</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="f8509885-2f7b-419e-9079-2e584a67c5e4">
+          <ID>Tiene Casa</ID>
+          <Name>Tiene Casa</Name>
+          <SourceColumnID>Tiene Casa</SourceColumnID>
+        </Column>
+      </Columns>
+    </MiningModel>
+    <MiningModel dwd:design-time-name="cb13f032-11cd-4f9b-8950-c5b057c66e85">
+      <ID>NN_ProjectFinal</ID>
+      <Name>NN_ProjectFinal</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Neural_Network</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="c1f38b8d-c9f6-45e7-87cf-2fb923c71c3b">
+          <ID>AGE</ID>
+          <Name>AGE</Name>
+          <SourceColumnID>AGE</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="6a5731b1-e6c0-4cb4-9ae1-0c2132b89679">
+          <ID>Customer Key</ID>
+          <Name>Customer Key</Name>
+          <SourceColumnID>Customer Key</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="cdeccf36-5497-4b0c-b06c-57bb0a67194a">
+          <ID>CUSTOMERSALARY</ID>
+          <Name>CUSTOMERSALARY</Name>
+          <SourceColumnID>CUSTOMERSALARY</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="4411df92-f06d-4ad2-bcec-8f169fd0fbd1">
+          <ID>ESTADOCIVIL</ID>
+          <Name>ESTADOCIVIL</Name>
+          <SourceColumnID>ESTADOCIVIL</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="8f067612-2008-41cc-b04a-6f956a921a30">
+          <ID>Prospective Buyer</ID>
+          <Name>Prospective Buyer</Name>
+          <SourceColumnID>Prospective Buyer</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="d23f435e-0bda-4528-b7d4-04930e4b5579">
+          <ID>Tiene Carro</ID>
+          <Name>Tiene Carro</Name>
+          <SourceColumnID>Tiene Carro</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="c88202b5-4c82-4ed3-9b6c-3460b09c7463">
+          <ID>Tiene Casa</ID>
+          <Name>Tiene Casa</Name>
+          <SourceColumnID>Tiene Casa</SourceColumnID>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>
